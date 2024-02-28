@@ -193,14 +193,11 @@ do
             {
                 dbContext.Products.Remove(prodct);
                 dbContext.SaveChanges();
-
                 Console.WriteLine("Product succesfully deleted");
             }
             else 
                 Console.WriteLine("Product not found!");
             break;
-
-
         default:
             Console.WriteLine("Wrong option");
             break;
